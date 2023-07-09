@@ -19,13 +19,39 @@ line-height: normal;
 }
 .nav-list{
     display: flex;
+   
+    align-items: center;
 
 }
 nav li{
     list-style: none;
-    margin: 50px;
+    margin: 20px;
+    
 }
 nav a{
     text-decoration: none;
     color: var(--dark-02, #474747);
+}
+.btn-praimary{
+   border-radius: 5px;
+   background: rgb(243, 69, 0); 
+   border: 0px;
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 12px 30px;
+}
+.title2{
+    gap: 380px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 400px; 
 }
